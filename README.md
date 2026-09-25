@@ -67,66 +67,66 @@ Welcome to the definitive awesome list for **Feature Adoption Platforms**, **Dig
 
 ## ⭐ Open-Source Guided Tour & Onboarding Engines
 
-*The following list features top open-source projects for building custom in-app tours, highlights, and onboarding flows, sorted by GitHub star count in descending order.*
+*The following list features top open-source projects for building custom in-app tours, highlights, and onboarding flows, sorted by GitHub Stars_Count in descending order.*
 
 - **[Driver.js](https://github.com/kamranahmedse/driver.js)**  
-  [![GitHub stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers)  
   *Lightweight, vanilla JavaScript driver engine to highlight elements, create popovers, and build interactive product walkthroughs with zero dependencies.*
 
 - **[Intro.js](https://github.com/usablica/intro.js)**  
-  [![GitHub stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers)  
   *Established open-source step-by-step guide and feature introduction library for web applications.*
 
 - **[Shepherd](https://github.com/shipshapecode/shepherd)**  
-  [![GitHub stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers)  
   *Framework-agnostic, production-grade library powered by Floating UI for crafting customizable guided user tours.*
 
 - **[React Joyride](https://github.com/gilbarbara/react-joyride)**  
-  [![GitHub stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers)  
   *Popular React library for creating step-by-step guided tours and highlighting new features in modern web applications.*
 
 - **[Instructions](https://github.com/ephread/Instructions)**  
-  [![GitHub stars](https://img.shields.io/github/stars/ephread/Instructions?style=social&color=white)](https://github.com/ephread/Instructions/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/ephread/Instructions?style=social&color=white)](https://github.com/ephread/Instructions/stargazers)  
   *Customizable coach marks and guided onboarding tour library written in Swift for iOS applications.*
 
 - **[CodeTour](https://github.com/microsoft/codetour)**  
-  [![GitHub stars](https://img.shields.io/github/stars/microsoft/codetour?style=social&color=white)](https://github.com/microsoft/codetour/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/codetour?style=social&color=white)](https://github.com/microsoft/codetour/stargazers)  
   *VS Code extension that lets developers record and play back interactive guided tours of codebases.*
 
 - **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)**  
-  [![GitHub stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers)  
   *Quick and easy product tour plugin leveraging Twitter Bootstrap popovers.*
 
 - **[Hopscotch](https://github.com/LinkedInAttic/hopscotch)**  
-  [![GitHub stars](https://img.shields.io/github/stars/LinkedInAttic/hopscotch?style=social&color=white)](https://github.com/LinkedInAttic/hopscotch/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/LinkedInAttic/hopscotch?style=social&color=white)](https://github.com/LinkedInAttic/hopscotch/stargazers)  
   *Framework built by LinkedIn for creating product tours across modern web applications.*
 
 - **[Vue Tour](https://github.com/pulsardev/vue-tour)**  
-  [![GitHub stars](https://img.shields.io/github/stars/pulsardev/vue-tour?style=social&color=white)](https://github.com/pulsardev/vue-tour/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/pulsardev/vue-tour?style=social&color=white)](https://github.com/pulsardev/vue-tour/stargazers)  
   *Lightweight, customizable guided tour plugin designed specifically for Vue.js applications.*
 
 - **[Usertour](https://github.com/usertour/usertour)**  
-  [![GitHub stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers)  
   *Open-source user onboarding engine (cloud or self-hosted) for building tours, checklists, and in-app surveys.*
 
 - **[Onborda](https://github.com/uixmat/onborda)**  
-  [![GitHub stars](https://img.shields.io/github/stars/uixmat/onborda?style=social&color=white)](https://github.com/uixmat/onborda/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/uixmat/onborda?style=social&color=white)](https://github.com/uixmat/onborda/stargazers)  
   *Modern onboarding flow and product tour library for Next.js, animated smoothly with Framer Motion.*
 
 - **[Tourguide.js](https://github.com/LikaloLLC/tourguide.js)**  
-  [![GitHub stars](https://img.shields.io/github/stars/LikaloLLC/tourguide.js?style=social&color=white)](https://github.com/LikaloLLC/tourguide.js/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/LikaloLLC/tourguide.js?style=social&color=white)](https://github.com/LikaloLLC/tourguide.js/stargazers)  
   *Simple, clean, and lightweight JavaScript library for creating step-by-step guided product tours.*
 
 - **[GuideChimp](https://github.com/Labs64/GuideChimp)**  
-  [![GitHub stars](https://img.shields.io/github/stars/Labs64/GuideChimp?style=social&color=white)](https://github.com/Labs64/GuideChimp/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/Labs64/GuideChimp?style=social&color=white)](https://github.com/Labs64/GuideChimp/stargazers)  
   *Extensible open-source tour engine for building interactive user walkthroughs and onboarding paths.*
 
 - **[Frigade Engage](https://github.com/FrigadeHQ/javascript)**  
-  [![GitHub stars](https://img.shields.io/github/stars/FrigadeHQ/javascript?style=social&color=white)](https://github.com/FrigadeHQ/javascript/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/FrigadeHQ/javascript?style=social&color=white)](https://github.com/FrigadeHQ/javascript/stargazers)  
   *Headless developer platform for building native React onboarding tours, banners, and checklists.*
 
 - **[FeatureDrop](https://github.com/glincker/featuredrop)**  
-  [![GitHub stars](https://img.shields.io/github/stars/glincker/featuredrop?style=social&color=white)](https://github.com/glincker/featuredrop/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/glincker/featuredrop?style=social&color=white)](https://github.com/glincker/featuredrop/stargazers)  
   *Ultra-lightweight open-source product adoption toolkit (< 3 kB core) for changelogs, tours, and checklists.*
 
 ---
