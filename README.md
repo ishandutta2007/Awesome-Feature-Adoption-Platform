@@ -1,211 +1,197 @@
-# Awesome-Feature-Adoption-Platform
-
-## Top Feature Adoption Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on In-App Guidance, Product Tours, Onboarding Checklists, Tooltips, Digital Adoption & User Activation*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Feature Adoption** (also called digital adoption or product adoption platforms). These tools layer in-app tours, tooltips, checklists, announcements, and guidance on top of web and SaaS products to drive onboarding, feature discovery, and user activation.
-
-
-
-**Examples** include Pendo, Userpilot, Appcues, WalkMe, Whatfix, Chameleon, Userflow, UserGuiding, Inline Manual, Apty, Gainsight PX, Product Fruits, and CommandBar (the category leaders).
-
-
-
-**Open-source emphasis**: Full commercial digital-adoption platforms dominate enterprise and product-led growth use cases. Strong open options exist for tours and onboarding (**Shepherd**, **Usertour**, **FeatureDrop**, Driver.js, and related libraries). This section lists the best available open resources and is realistic about the commercial gap for analytics and cross-app guidance.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Pendo](https://www.pendo.io/)**  
-
-  Leading product experience platform combining deep product analytics with in-app guidance, feedback, and adoption insights for larger product teams.
-
-
-
-- **[Userpilot](https://userpilot.com/)**  
-
-  Product adoption platform focused on no-code onboarding flows, checklists, and in-app experiences tightly tied to behavioral analytics and experiments.
-
-
-
-- **[Appcues](https://www.appcues.com/)**  
-
-  Popular no-code onboarding and engagement platform used by product and marketing teams to ship tours, modals, and personalized flows without engineering.
-
-
-
-- **[WalkMe](https://www.walkme.com/)**  
-
-  Enterprise digital adoption platform strong at guiding users across complex and multi-application environments (including third-party enterprise software).
-
-
-
-- **[Whatfix](https://www.whatfix.com/)**  
-
-  Product analytics and engagement platform that combines usage insights with in-app messaging and guidance for SaaS products.
-
-
-
-- **[Chameleon](https://www.chameleon.io/)**  
-
-  Product adoption toolkit for tours, tooltips, launchers, and surveys designed for product-led growth teams.
-
-
-
-- **[Userflow](https://userflow.com/)**  
-
-  Modern user onboarding platform emphasizing fast setup of flows, checklists, and resource centers with flexible targeting.
-
-
-
-- **[UserGuiding](https://userguiding.com/)**  
-
-  Budget-friendly no-code onboarding and product adoption platform popular with smaller SaaS teams for tours and checklists.
-
-
-
-- **[Inline Manual](https://inlinemanual.com/)**  
-
-  Digital adoption and interactive guide platform focused on in-app help, walkthroughs, and knowledge delivery.
-
-
-
-- **[Apty, Gainsight PX, Product Fruits, CommandBar and related platforms](https://www.example.com/)**  
-
-  Additional digital adoption, product experience, and command-bar / AI assistance tools used for onboarding and in-product guidance.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Shepherd](https://github.com/shipshapecode/shepherd)**  
-
-  Mature, framework-agnostic open-source library for building custom product tours, onboarding journeys, and in-app guidance with strong customization and production use.
-
-
-
-- **[Usertour](https://github.com/usertour/usertour)**  
-
-  Open-source user onboarding platform (self-hostable or cloud) for creating in-app product tours, checklists, and surveys—positioned as an alternative to Userflow and Appcues.
-
-
-
-- **[FeatureDrop](https://github.com/GLINCKER/featuredrop)**  
-
-  Lightweight open-source product adoption toolkit (< 3 kB core) for changelogs, tours, checklists, badges, banners, and feedback with a client-side behavioral engine.
-
-
-
-- **[Driver.js](https://github.com/kamranahmedse/driver.js)**  
-
-  Popular lightweight open-source library for highlighting elements and building simple, elegant product tours.
-
-
-
-- **[Intro.js](https://github.com/usablica/intro.js)**  
-
-  Established open-source guided-tour library used across many web applications (note licensing considerations for commercial use).
-
-
-
-- **[React Joyride / Reactour / Onborda and framework-specific tour libraries](https://github.com/)**  
-
-  Open React and other framework wrappers for building step-by-step product tours inside modern front-end stacks.
-
-
-
-- **[Checklist and onboarding open components](https://github.com/)**  
-
-  Community UI components for progress checklists, launchers, and activation flows that can be self-hosted.
-
-
-
-- **[Announcement and changelog open widgets](https://github.com/)**  
-
-  Self-hosted alternatives to commercial changelog and “what’s new” widgets.
-
-
-
-- **[Analytics event open collectors for adoption](https://github.com/)**  
-
-  Open event-tracking patterns used to measure tour completion and feature adoption alongside open guidance tools.
-
-
-
-- **[Documentation and self-hosting guides](https://github.com/)**  
-
-  Resources for deploying and customizing open tour and onboarding stacks inside your own product.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building production tours with **Shepherd** or **Driver.js** when you want full control and minimal vendor dependency.
-
-- Self-hosting **Usertour** or using **FeatureDrop** for broader onboarding, checklists, and announcement capabilities.
-
-- Combining open tour libraries with your existing product analytics (Amplitude, Mixpanel, PostHog, etc.).
-
-- Accepting that deep product analytics, no-code editors for non-technical teams, cross-application enterprise guidance, and polished targeting still favor commercial platforms (Pendo, Appcues, Userpilot, WalkMe, Userflow, etc.).
-
-- Focusing open-source efforts on data ownership, zero per-MAU fees, and tight integration with your own codebase.
-
-
-
-**Frameworks for building custom systems**: Instrument key events in your product → implement tours and checklists with Shepherd / Usertour / FeatureDrop → persist user progress in your own backend → measure activation and feature usage with open or commercial analytics. Suitable for product teams with front-end capacity. Many growth-stage and enterprise SaaS companies still rely on commercial feature-adoption platforms for speed and non-technical ownership of flows.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- In-app guidance systems interact with user interfaces and may collect behavioral data. Proper privacy notices, consent, and accessibility considerations are required. This list is not legal or product-advice.
-
-
+# 🚀 Awesome Feature Adoption Platform Ecosystem
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Feature-Adoption-Platform/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Feature Adoption Platform Banner" width="100%" />
+</p>
 
 ---
 
-**Made for product managers, growth teams, and open-source product builders.**
+## 📌 Ecosystem Overview & SEO Guide
 
-Let's keep onboarding helpful, measurable, and as open as practical.
+**Curated List of SaaS Digital Adoption Platforms (DAP) & Open-Source Guided Tour Engines**
+
+*Focused on In-App Guidance, Interactive Product Tours, Onboarding Checklists, Tooltips, User Activation & Product-Led Growth (PLG)*
+
+Welcome to the definitive awesome list for **Feature Adoption Platforms**, **Digital Adoption Platforms (DAPs)**, and **In-App User Onboarding Software**. Whether you are a product manager seeking enterprise no-code tour builders or a developer looking for open-source JavaScript walkthrough libraries, this repository indexes the best-in-class solutions to boost user retention, streamline feature discovery, and maximize SaaS product activation.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Market Size & Dynamics](#-sector-market-size--dynamics)
+- [🏢 SaaS & Commercial Digital Adoption Platforms](#-saas--commercial-digital-adoption-platforms)
+- [⭐ Open-Source Guided Tour & Onboarding Engines](#-open-source-guided-tour--onboarding-engines)
+- [🛠 Architectural Guidance & Integration Patterns](#-architectural-guidance--integration-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & License](#%EF%B8%8F-disclaimer--license)
+
+---
+
+## 📊 Sector Market Size & Dynamics
+
+> 💡 **Industry Insights (2026)**: The global **Digital Adoption Platform (DAP)** market is estimated at **$2.8 Billion in 2026** and projected to reach **$6.5 Billion by 2030** (expanding at a ~17.4% CAGR). The sector is **moderately fragmented**: complex enterprise multi-application adoption is led by consolidated giants (Pendo, WalkMe/SAP), while product-led growth (PLG) and mid-market SaaS onboarding remain heavily split among agile no-code platforms (Appcues, Userpilot, Chameleon, Userflow, UserGuiding).
+
+---
+
+## 🏢 SaaS & Commercial Digital Adoption Platforms
+
+*The following table lists top commercial feature adoption platforms, sorted by estimated company scale (valuation and annual recurring revenue) in descending order.*
+
+| 🏢 Platform | 📊 Company Size / Scale (Valuation / ARR) | 💰 Starting Price | 🎁 Free Tier / Trial Limits | ✨ Core Highlights & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Pendo](https://www.pendo.io/)** | **$2.6B Valuation** / ~$200M ARR | **$583/mo** ($7,000/yr entry est.) | **Free Plan ($0)**: Permanent free tier up to **500 MAUs** with core product analytics & guides. | Combines enterprise product analytics with in-app walkthroughs, NPS surveys, and user feedback loops. |
+| **[WalkMe](https://www.walkme.com/)** | **$1.5B Valuation** (SAP) / ~$267M ARR | **$750/mo** ($9,000/yr entry est.) | **14-Day Free Trial**: Available upon request (plus WalkMe Mobile free tier). | Enterprise-grade digital adoption across multi-app employee & customer workflows. |
+| **[Gainsight PX](https://www.gainsight.com/product-experience/)** | **$1.1B Parent Valuation** / ~$30M ARR | **$500/mo** ($6,000/yr entry est.) | **14-Day Free Trial**: Full evaluation of product analytics & targeted engagement. | Purpose-built for Customer Success & Product teams to drive product adoption & retention. |
+| **[Whatfix](https://www.whatfix.com/)** | **$900M Valuation** / ~$58M ARR | **$1,000/mo** ($12,000/yr entry est.) | **14-Day Free Trial**: Demo & trial environment available on request. | In-app guidance, interactive walkthroughs, and automated task execution for SaaS applications. |
+| **[Appcues](https://www.appcues.com/)** | **~$25.5M ARR** / $52.8M Funding | **$249/mo** (Essential, annual) | **14-Day Free Trial**: Full-featured access, no credit card required. | Pioneer in no-code onboarding flows, slideout modals, and user activation checklists. |
+| **[Chameleon](https://www.chameleon.io/)** | **~$12.2M ARR** / $13M Funding | **$279/mo** (Startup, 2k MTUs) | **14-Day Free Trial**: Full access to tours, launchers, tooltips & microsurveys. | Deeply customizable product adoption toolkit designed for product-led growth (PLG) teams. |
+| **[Userpilot](https://userpilot.com/)** | **~$9.5M ARR** / $6M Funding | **$299/mo** (Starter, 2k MAUs) | **14-Day Free Trial**: Full access to flow builder, checklists, and product analytics. | No-code product onboarding, in-app triggers, user segmentation, and feature heatmaps. |
+| **[Userflow](https://userflow.com/)** | **~$8.0M ARR** / Bootstrapped | **$240/mo** (Startup, annual) | **14-Day Free Trial**: Complete platform access including resource centers & flows. | Ultra-fast no-code builder for interactive tours, checklists, and automated onboarding. |
+| **[UserGuiding](https://userguiding.com/)** | **~$5.0M ARR** / $1.5M Funding | **$174/mo** (Starter, 2.5k MAUs) | **14-Day Free Trial**: Access to interactive walkthroughs, banners, and checklists. | High-value, budget-friendly onboarding builder tailored for growing startups & SaaS tools. |
+| **[Inline Manual](https://inlinemanual.com/)** | **~$4.0M ARR** | **$158/mo** (Standard, 250 MAUs) | **14-Day Free Trial**: Unlimited guide creation during evaluation period. | Flexible digital adoption platform for interactive walkthroughs and customer support tooltips. |
+| **[Apty](https://www.apty.ai/)** | **~$4.0M ARR** / $7.5M Funding | **$833/mo** ($10,000/yr entry est.) | **14-Day Free Trial**: Trial environment for web & enterprise app workflows. | Business process compliance & step-by-step guidance for enterprise SaaS applications. |
+| **[CommandBar](https://www.commandbar.com/)** | **~$3.0M ARR** / $4.8M Funding | **$0/mo** (Community Free Plan) | **Free Plan ($0)**: Permanent free tier up to **1,000 MAUs** (Paid tiers start at $249/mo). | AI-assisted command palette, in-app search, Nudge tours, and HelpHub assistance. |
+| **[Product Fruits](https://productfruits.com/)** | **~$3.0M ARR** / Bootstrapped | **$96/mo** (Growing, annual) | **14-Day Free Trial**: Full feature sandbox including tours, hints & feedback widgets. | Lightweight, complete product adoption suite with tours, checklists, and hints. |
+
+---
+
+## ⭐ Open-Source Guided Tour & Onboarding Engines
+
+*The following list features top open-source projects for building custom in-app tours, highlights, and onboarding flows, sorted by GitHub star count in descending order.*
+
+- **[Driver.js](https://github.com/kamranahmedse/driver.js)**  
+  [![GitHub stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers)  
+  *Lightweight, vanilla JavaScript driver engine to highlight elements, create popovers, and build interactive product walkthroughs with zero dependencies.*
+
+- **[Intro.js](https://github.com/usablica/intro.js)**  
+  [![GitHub stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers)  
+  *Established open-source step-by-step guide and feature introduction library for web applications.*
+
+- **[Shepherd](https://github.com/shipshapecode/shepherd)**  
+  [![GitHub stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers)  
+  *Framework-agnostic, production-grade library powered by Floating UI for crafting customizable guided user tours.*
+
+- **[React Joyride](https://github.com/gilbarbara/react-joyride)**  
+  [![GitHub stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers)  
+  *Popular React library for creating step-by-step guided tours and highlighting new features in modern web applications.*
+
+- **[Instructions](https://github.com/ephread/Instructions)**  
+  [![GitHub stars](https://img.shields.io/github/stars/ephread/Instructions?style=social&color=white)](https://github.com/ephread/Instructions/stargazers)  
+  *Customizable coach marks and guided onboarding tour library written in Swift for iOS applications.*
+
+- **[CodeTour](https://github.com/microsoft/codetour)**  
+  [![GitHub stars](https://img.shields.io/github/stars/microsoft/codetour?style=social&color=white)](https://github.com/microsoft/codetour/stargazers)  
+  *VS Code extension that lets developers record and play back interactive guided tours of codebases.*
+
+- **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)**  
+  [![GitHub stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers)  
+  *Quick and easy product tour plugin leveraging Twitter Bootstrap popovers.*
+
+- **[Hopscotch](https://github.com/LinkedInAttic/hopscotch)**  
+  [![GitHub stars](https://img.shields.io/github/stars/LinkedInAttic/hopscotch?style=social&color=white)](https://github.com/LinkedInAttic/hopscotch/stargazers)  
+  *Framework built by LinkedIn for creating product tours across modern web applications.*
+
+- **[Vue Tour](https://github.com/pulsardev/vue-tour)**  
+  [![GitHub stars](https://img.shields.io/github/stars/pulsardev/vue-tour?style=social&color=white)](https://github.com/pulsardev/vue-tour/stargazers)  
+  *Lightweight, customizable guided tour plugin designed specifically for Vue.js applications.*
+
+- **[Usertour](https://github.com/usertour/usertour)**  
+  [![GitHub stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers)  
+  *Open-source user onboarding engine (cloud or self-hosted) for building tours, checklists, and in-app surveys.*
+
+- **[Onborda](https://github.com/uixmat/onborda)**  
+  [![GitHub stars](https://img.shields.io/github/stars/uixmat/onborda?style=social&color=white)](https://github.com/uixmat/onborda/stargazers)  
+  *Modern onboarding flow and product tour library for Next.js, animated smoothly with Framer Motion.*
+
+- **[Tourguide.js](https://github.com/LikaloLLC/tourguide.js)**  
+  [![GitHub stars](https://img.shields.io/github/stars/LikaloLLC/tourguide.js?style=social&color=white)](https://github.com/LikaloLLC/tourguide.js/stargazers)  
+  *Simple, clean, and lightweight JavaScript library for creating step-by-step guided product tours.*
+
+- **[GuideChimp](https://github.com/Labs64/GuideChimp)**  
+  [![GitHub stars](https://img.shields.io/github/stars/Labs64/GuideChimp?style=social&color=white)](https://github.com/Labs64/GuideChimp/stargazers)  
+  *Extensible open-source tour engine for building interactive user walkthroughs and onboarding paths.*
+
+- **[Frigade Engage](https://github.com/FrigadeHQ/javascript)**  
+  [![GitHub stars](https://img.shields.io/github/stars/FrigadeHQ/javascript?style=social&color=white)](https://github.com/FrigadeHQ/javascript/stargazers)  
+  *Headless developer platform for building native React onboarding tours, banners, and checklists.*
+
+- **[FeatureDrop](https://github.com/glincker/featuredrop)**  
+  [![GitHub stars](https://img.shields.io/github/stars/glincker/featuredrop?style=social&color=white)](https://github.com/glincker/featuredrop/stargazers)  
+  *Ultra-lightweight open-source product adoption toolkit (< 3 kB core) for changelogs, tours, and checklists.*
+
+---
+
+## 🛠 Architectural Guidance & Integration Patterns
+
+```
+   +-----------------------------------------------------------------+
+   |                    Front-End Web Application                     |
+   |                                                                 |
+   |  +------------------------+      +---------------------------+  |
+   |  |   Open Tour Library    |      |  Product Analytics SDK    |  |
+   |  | (Driver / Shepherd/    |      | (PostHog / Amplitude /    |  |
+   |  |   React Joyride)       |      |       Mixpanel)           |  |
+   |  +-----------+------------+      +-------------+-------------+  |
+   +--------------|---------------------------------|----------------+
+                  |                                 |
+                  v                                 v
+        [ In-App Tour Steps ]             [ Tour Milestone Events ]
+                  |                                 |
+                  +----------------+----------------+
+                                   |
+                                   v
+                      +--------------------------+
+                      |   Application Backend    |
+                      |  (Persist User Progress) |
+                      +--------------------------+
+```
+
+1. **Step 1: Event Instrumentation** — Track core feature clicks and lifecycle milestones using open analytics (PostHog, Segment) or custom APIs.
+2. **Step 2: Guidance Injection** — Trigger contextual tooltips and walkthroughs using Shepherd, Driver.js, or React Joyride upon detecting target user cohorts.
+3. **Step 3: State Persistence** — Save completed tour steps in user metadata table to avoid repeating flows across devices.
+4. **Step 4: Activation Measurement** — Compare feature usage metrics between onboarded user cohorts vs non-onboarded control groups.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To contribute:
+
+1. Fork the repository on GitHub.
+2. Add your SaaS product or Open-Source project to `README.md` following the tabular or star-badged format.
+3. Ensure all descriptions are factual, link directly to official sites, and follow existing sorting rules.
+4. Submit a Pull Request detailing your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your product team or open-source stack:
+
+- ⭐ **Star this repository** on GitHub to support visibility.
+- 🔀 **Fork & share** it with fellow product managers, growth hackers, and engineers.
+- ☕ **Sponsor the Maintainer**: Consider buying a coffee or supporting ongoing development via the maintainer's [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Feature-Adoption-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Feature-Adoption-Platform&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & License
+
+- **Disclaimer**: This ecosystem list is community-curated for informational purposes only. In-app guidance engines handle UI interactions and user tracking; proper privacy disclosures and consent regulations (GDPR/CCPA) apply.
+- **Awesome Ecosystem**: Part of the [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) curated index.
+- **License**: Released under the [MIT License](LICENSE).

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f1135" />
+    </linearGradient>
+
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.05" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations for Dynamic Aspects */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(-15px, 10px); opacity: 0.6; }
+    }
+
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-12px) translateX(8px); }
+    }
+
+    @keyframes dashFlow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes waveMotion {
+      0%, 100% { d: path("M0,220 Q225,180 450,220 T900,220 L900,300 L0,300 Z"); }
+      50% { d: path("M0,210 Q225,240 450,200 T900,230 L900,300 L0,300 Z"); }
+    }
+
+    .orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-2 { animation: pulseOrb 10s ease-in-out infinite 2s; transform-origin: 700px 200px; }
+    .particle { animation: floatParticle 6s ease-in-out infinite; }
+    .flow-line { stroke-dasharray: 12, 8; animation: dashFlow 20s linear infinite; }
+    
+    /* Foreground Text Rules - Ensures non-overlapping high visibility */
+    .banner-title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: url(#titleGradient);
+    }
+
+    .banner-subtitle {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      fill: #e2e8f0;
+      letter-spacing: 0.5px;
+    }
+
+    .pill-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Layer 1: Background Base -->
+  <rect width="900" height="300" rx="16" fill="url(#bgGradient)" />
+
+  <!-- Layer 2: Dynamic Background Animations (Orbs & Wave) -->
+  <g class="orb-1">
+    <circle cx="180" cy="90" r="140" fill="#3b82f6" opacity="0.25" filter="url(#glow)" />
+  </g>
+  <g class="orb-2">
+    <circle cx="750" cy="210" r="130" fill="#c084fc" opacity="0.2" filter="url(#glow)" />
+  </g>
+
+  <!-- Background Tech Grid Lines & Particles -->
+  <path d="M 50,0 V 300 M 150,0 V 300 M 250,0 V 300 M 350,0 V 300 M 450,0 V 300 M 550,0 V 300 M 650,0 V 300 M 750,0 V 300 M 850,0 V 300" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1" />
+  <path d="M 0,50 H 900 M 0,100 H 900 M 0,150 H 900 M 0,200 H 900 M 0,250 H 900" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1" />
+
+  <!-- Dynamic Connecting Data Line (Behind Text) -->
+  <path d="M 60,230 Q 200,160 400,240 T 840,140" fill="none" stroke="url(#lineGrad)" stroke-width="3" class="flow-line" opacity="0.5" />
+
+  <!-- Floating Background Nodes -->
+  <circle cx="120" cy="70" r="4" fill="#60a5fa" opacity="0.7" class="particle" />
+  <circle cx="810" cy="80" r="5" fill="#f472b6" opacity="0.6" class="particle" />
+  <circle cx="720" cy="250" r="3" fill="#a855f7" opacity="0.8" class="particle" />
+
+  <!-- Layer 3: Central Content Card (Glassmorphism Frame) -->
+  <rect x="40" y="35" width="820" height="230" rx="14" fill="#0f172a" fill-opacity="0.6" stroke="#334155" stroke-width="1.5" filter="url(#shadow)" />
+  <rect x="40" y="35" width="820" height="230" rx="14" fill="url(#cardGlow)" />
+
+  <!-- Decorative Top Card Accent Line -->
+  <rect x="40" y="35" width="820" height="3" fill="url(#titleGradient)" rx="1.5" />
+
+  <!-- Layer 4 & 5: FOREGROUND TEXT (Clean, High-Contrast, Always Legible) -->
+  <g filter="url(#shadow)">
+    <!-- Main Title -->
+    <text x="70" y="105" class="banner-title">Awesome Feature Adoption Platform 🚀</text>
+    
+    <!-- Subtitle -->
+    <text x="70" y="145" class="banner-subtitle">Curated Ecosystem of In-App Guidance, Product Tours, Checklists &amp; Digital Adoption</text>
+  </g>
+
+  <!-- Layer 6: Feature Pills (Foreground Footers) -->
+  <!-- Pill 1: SaaS Leaders -->
+  <g transform="translate(70, 180)">
+    <rect width="165" height="34" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <text x="14" y="22" class="pill-text" fill="#38bdf8">💎 Top SaaS Platforms</text>
+  </g>
+
+  <!-- Pill 2: Open Source -->
+  <g transform="translate(250, 180)">
+    <rect width="175" height="34" rx="8" fill="#1e293b" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4" />
+    <text x="14" y="22" class="pill-text" fill="#c084fc">⭐ Open-Source Engines</text>
+  </g>
+
+  <!-- Pill 3: In-App Guidance -->
+  <g transform="translate(440, 180)">
+    <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#f472b6" stroke-width="1" stroke-opacity="0.4" />
+    <text x="14" y="22" class="pill-text" fill="#f472b6">🎯 Walkthroughs &amp; Tours</text>
+  </g>
+
+  <!-- Pill 4: Activation -->
+  <g transform="translate(635, 180)">
+    <rect width="195" height="34" rx="8" fill="#1e293b" stroke="#4ade80" stroke-width="1" stroke-opacity="0.4" />
+    <text x="14" y="22" class="pill-text" fill="#4ade80">📈 User Activation Insights</text>
+  </g>
+</svg>
